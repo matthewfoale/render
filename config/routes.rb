@@ -8,6 +8,7 @@ namespace :api do
       post 'sessions' => 'sessions#create', :as => 'login'
       delete 'sessions' => 'sessions#destroy', :as => 'logout'
     end
+     get 'tasks' => 'tasks#index', :as => 'tasks'
   end
 end
 
