@@ -13,8 +13,8 @@ class Api::V1::TasksController < ApplicationController
   "info":"ok",
   "data":{
           "tasks":[
-                    {"title":"Complete the app"},
-                    {"title":"Complete the tutorial"}
+                    {"title":"Make this page display"},
+                    {"title":"DISPLAY ME !!"}
                   ]
          }
 }'
