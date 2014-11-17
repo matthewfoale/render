@@ -4,9 +4,6 @@ ruby '1.9.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
-gem 'rails_12factor'
-
-gem 'pg', '0.17.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -32,6 +29,12 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+
+group :production do
+	gem 'rails_12factor'
+	gem 'pg', '0.17.1'
+  
+
 
 end
 
